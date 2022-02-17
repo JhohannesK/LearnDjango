@@ -1,0 +1,5 @@
+.env
+forTailwind/node_modules/
+venv/
+accounts/static/accounts/output.css
+forTailwind/

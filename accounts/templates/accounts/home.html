@@ -1,0 +1,21 @@
+{% extends 'accounts/nav.html' %} {% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{%block title%}HomePage{% endblock %}</title>
+    <link rel="stylesheet" href="{% static "../static/accounts/output.css" %}"
+    />
+  </head>
+
+  <body>
+    {% block content %}
+    <div class="flex items-center justify-center h-screen">
+      <h3 class="text-5xl text-yellow-400 font-bold">This is the homepage</h3>
+    </div>
+  </body>
+  {% endblock %}
+</html>
